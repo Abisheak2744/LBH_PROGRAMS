@@ -43,5 +43,39 @@ public class Main {
         } else {
             System.out.println("The sum is odd");
         }
+	    // Program 1: Print all numbers from 1 to 100
+        System.out.println("Program 1:");
+        for (int i = 1; i <= 100; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        // Program 2: Print alternate numbers starting from 1 to 99
+        System.out.println("\nProgram 2:");
+        for (int i = 1; i <= 99; i += 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        // Program 3: Print alternate numbers starting from 0 to 100
+        System.out.println("\nProgram 3:");
+        for (int i = 0; i <= 100; i += 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        // Program 4: Print all numbers backwards from 100 to 0
+        System.out.println("\nProgram 4:");
+        for (int i = 100; i >= 0; i--) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        // Program 5: Print numbers backwards from 100 to 1 by skipping 2 numbers
+        System.out.println("\nProgram 5:");
+        for (int i = 100; i >= 1; i -= 2) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
     }
 	}
