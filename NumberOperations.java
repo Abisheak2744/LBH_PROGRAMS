@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class NumberOperations {
-    // Function to check if the number is even
+ 
     public static int isEven(int number) {
         if (number % 2 == 0) {
             return 2;
@@ -10,7 +10,7 @@ public class NumberOperations {
         }
     }
 
-    // Function to check if the number is odd
+    
     public static int isOdd(int number) {
         if (number % 2 != 0) {
             return 2;
@@ -19,12 +19,12 @@ public class NumberOperations {
         }
     }
 
-    // Function to get the last digit of the given number
+   
     public static int getLastDigit(int number) {
         return Math.abs(number % 10);
     }
 
-    // Function to get the second last digit of the given number
+    
     public static int getSecondLastDigit(int number) {
         number = Math.abs(number);
         if (number < 10) {
@@ -33,7 +33,7 @@ public class NumberOperations {
         return (number / 10) % 10;
     }
 
-    // Function to add the last digits of two given numbers
+   
     public static int addLastDigits(int input1, int input2) {
         return getLastDigit(input1) + getLastDigit(input2);
     }
